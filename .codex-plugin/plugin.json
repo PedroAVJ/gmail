@@ -1,0 +1,49 @@
+{
+  "name": "gmail",
+  "version": "0.7.1",
+  "description": "OpenAI's connected Gmail plugin and workflows, plus raw Gmail access and bounded inbox review.",
+  "author": {
+    "name": "OpenAI / PedroAVJ",
+    "url": "https://github.com/PedroAVJ/gmail"
+  },
+  "homepage": "https://github.com/PedroAVJ/gmail",
+  "repository": "https://github.com/PedroAVJ/gmail",
+  "license": "MIT",
+  "keywords": [
+    "gmail",
+    "google-workspace",
+    "gws",
+    "connector",
+    "email",
+    "attachments",
+    "triage",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "apps": "./.app.json",
+  "interface": {
+    "displayName": "Gmail",
+    "shortDescription": "OpenAI Gmail with precise local workflows",
+    "longDescription": "Use OpenAI's connected Gmail app and vendor-authored search, thread, drafting, forwarding, and inbox-triage workflows, with raw API and attachment access through the Google Workspace CLI plus bounded attention and read-only inbox-hygiene review.",
+    "developerName": "OpenAI + PedroAVJ",
+    "category": "Communication",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://workspace.google.com/products/gmail/",
+    "privacyPolicyURL": "https://policies.google.com/privacy",
+    "termsOfServiceURL": "https://policies.google.com/terms",
+    "defaultPrompt": [
+      "Summarize inbox, draft replies, or process email threads",
+      "Triage my Gmail inbox into actionable buckets",
+      "Review recent Gmail for unwanted subscriptions",
+      "Download a Gmail attachment with gws"
+    ],
+    "brandColor": "#EA4335",
+    "composerIcon": "./assets/gmail-small.svg",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

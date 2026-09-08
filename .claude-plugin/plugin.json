@@ -1,0 +1,26 @@
+{
+  "name": "gmail",
+  "version": "0.7.1",
+  "description": "OpenAI's Gmail workflows plus raw Gmail access and bounded inbox review for hosts without the connected app.",
+  "author": {
+    "name": "OpenAI / PedroAVJ",
+    "url": "https://github.com/PedroAVJ/gmail"
+  },
+  "homepage": "https://github.com/PedroAVJ/gmail",
+  "repository": "https://github.com/PedroAVJ/gmail",
+  "license": "MIT",
+  "keywords": [
+    "gmail",
+    "google-workspace",
+    "gws",
+    "connector",
+    "email",
+    "attachments",
+    "triage",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "dependencies": [
+    "toolchain@package-manager"
+  ]
+}
